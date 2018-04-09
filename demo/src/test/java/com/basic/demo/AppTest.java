@@ -34,7 +34,7 @@ public class AppTest
 	@Test
 	public void Addtest() {
 		App operation=new App();
-		int result =operation.add(10, 10);
+		int result =operation.add(15, 10);
 		assertEquals(25, result);
 				
 	}
